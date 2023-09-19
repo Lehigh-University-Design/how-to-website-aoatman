@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-html {font-family: 'Kalam', cursive;}
-html {background-color: #19589eb4;}
-html {color: #fff;}
+
+html {
+    font-family: 'Kalam', cursive; 
+    background-color: #19589eb4;
+    color: #fff;
+}
+
 h2 {text-decoration: wavy underline;}
 ul, p {color: black; font-family: sans-serif;}
 
