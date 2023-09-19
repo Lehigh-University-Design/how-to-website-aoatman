@@ -2,5 +2,19 @@
 html {font-family: 'Kalam', cursive;}
 html {background-color: #19589eb4;}
 html {color: #fff;}
-h3 {text-decoration: wavy underline;}
-li, ul, p {color: black}
+h2 {text-decoration: wavy underline;}
+ul, p {color: black; font-family: sans-serif;}
+
+h1 {
+    text-align: center; text-shadow: 1px 1px 4px black;
+}
+
+.image1 {
+    display: block;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    filter: (drop-shadow) 10px 10px 5px black;
+
+}
