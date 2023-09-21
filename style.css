@@ -12,7 +12,7 @@ html {
 h1 {
     text-align: center; 
     text-shadow: 1px 1px 4px black;
-    font-size: 2.2em;
+    font-size: 2.7em;
 }
 
 .image1 {
@@ -49,16 +49,21 @@ h1 {
 }
 
 h2 /*Section Headers*/ {
-    text-decoration: wavy underline;
+    text-decoration: underline;
     color: white;
     padding: .8em;
-    font-size: 1.5em;
+    font-size: 1.9em;
     margin: 0 0 0 0;
+    font-weight: ;
 
 }
 
+h3 {
+    font-weight: bold;
+}
+
 .image2 {
-    transition: transform .2s
+    transition: transform .2s;
 }
 
 .image2:hover {
@@ -82,4 +87,26 @@ h2 /*Section Headers*/ {
 
 li, p {
     font-family: 'Roboto';
+}
+
+/*animation*/
+@keyframes slideinleft {
+    from {
+        transform: translateX(0);
+        transform: translateY(0);
+    }
+
+    to{
+        transform: translateX(500px);
+        transform: translateY(-1000px);
+    }
+}
+
+.flyingplane {
+    animation-name: slideinleft ;
+    animation-duration: 2s ;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
 }
