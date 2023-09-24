@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    font-family: 'Kalam', cursive; 
+    background-color: #496B97;
+    color: white;
+    margin-top: 10px;
+}
+
+
+h1 {
+    text-align: center; 
+    text-shadow: 1px 1px 4px black;
+    font-size: 2.7em;
+}
+
+.image1 {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 47%;
+    border: 5px solid #6789b6;
+}
+
+.image2, .image3 {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #496B97;
+    width: 45%;
+    filter: (drop-shadow) 10px 10px 5px black;
+}
+
+.materials, .steps, .tips, .title {
+    width: 60%;
+    background-color: #6789b6;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2 /*Section Headers*/ {
+    text-decoration: underline;
+    color: white;
+    padding: .8em;
+    font-size: 1.9em;
+    margin: 0 0 0 0;
+    font-weight: ;
+
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.image2 {
+    transition: transform .2s;
+}
+
+.image2:hover {
+    transform:scale(1.5);
+}
+
+.sourcetext {
+    color: white;
+    font-family: 'Roboto';
+    text-align: right;
+}
+
+.tips {
+    padding-bottom: 25px;
+}
+
+.lists {
+    margin-top: -30;
+    line-height: 1.4em;
+}
+
+li, p {
+    font-family: 'Roboto';
+}
